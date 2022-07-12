@@ -1,23 +1,16 @@
 # Тестовое задание "Перепись" (Population census)
 
-![infinity-url-checker-results_cr](https://user-images.githubusercontent.com/7511983/178134731-92aec1a0-e9e7-4dfd-8159-94f4e16ad385.jpg)
-
 # Ключевые особенности:
-1) Использование очередей
-2) Docker-compose + конфигурация Supervisor на заданное кол-во обработчиков очередей
-3) Observer + Event Listener
-4) Guzzle Http Client
-5) Migrations, Factory, Seeders
+1) Docker-compose
+2) Migrations, Factory, Seeders
 
 ## Стек:
 
 - Docker-compose
-- PHP-8.1.8 FPM
-- Laravel 9!
-
-- PostgreSQL 14
-- Redis
-- Пакеты (Laravel Breeze, Laravel Horizon, Guzzle Http Client, TailwindCSS + DaisyUI, Laravel IDE Helper)
+- PHP-8.1.7 FPM
+- Laravel 9
+- SQLite
+- Пакеты (Laravel Breeze, TailwindCSS, Laravel IDE Helper)
 
 ## Как развернуть
 
@@ -37,6 +30,5 @@
 14) Учётная запись по умолчанию:
     Email: `test@example.com`
     Пароль: `12345678`
-15) Мониторинг очередей - Laravel Horizon, доступен по адресу `http://localhost/queues`
 
 Автор: [twent](https://github.com/twent)
