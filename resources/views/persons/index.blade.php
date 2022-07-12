@@ -20,7 +20,7 @@
                             </button>
                         </div>
 
-                        <div class="flex-col my-auto">
+                        <div class="my-6 sm:my-auto flex-col">
                             <h2 class="text-blue-700 text-xl font-medium">Всего человек: {{ $personsCount }}</h2>
                             <h2 class="text-yellow-500 text-xl font-medium">Средний возраст: {{ $avgAge }}</h2>
                             <h2 class="text-green-600 text-xl font-medium">Общий возраст: {{ $sumAge }}</h2>
