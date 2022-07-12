@@ -1,5 +1,7 @@
 # Тестовое задание "Перепись" (Population census)
 
+![population-censuses](https://user-images.githubusercontent.com/7511983/178609114-5b5400a7-87ee-45a8-a01a-8490d2e88b3d.jpg)
+
 # Ключевые особенности:
 1) Docker-compose
 2) Migrations, Factory, Seeders
