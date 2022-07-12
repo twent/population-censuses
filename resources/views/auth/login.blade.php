@@ -9,8 +9,13 @@
         <!-- Session Status -->
         <x-auth-session-status class="mb-4" :status="session('status')" />
 
+        <!-- Success Messages -->
+        @if(session('success'))
+            <x-success-alerts class="my-4" :success="session('success')" />
+        @endif
+
         <!-- Validation Errors -->
-        <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        <x-errors class="mb-4" :errors="$errors" />
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
